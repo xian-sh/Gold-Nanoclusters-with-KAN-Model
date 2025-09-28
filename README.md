@@ -1,3 +1,20 @@
-# Gold-Nanoclusters-with-KAN-Model
+# Prediction of Frontier Orbital Energy of Atomically Precise Gold Nanoclusters with KAN Model
 
-The highly promising application of atomically precise gold nanoclusters (Au NCs, protected by organic ligands such as thiolate, phosphate etc.) in electrochemical and photochemical catalysis has highlighted the importance of accurate prediction of their electronic states, which has been challenging due to the high experimental and computational cost. Herein, a machine learning model based on an interpretable automated feature engineering is developed. Starting with the 99 data of Au NCs, 227 candidate parameters were first screened by a bi-directional stepwise regression, associating with the Kolmogorov-Arnold Networks (KAN) model to improve the prediction performance. With this suit of codes, and using only 79 data as the training set and 4 key descriptors, the mean average error of HOMO, LUMO and HOMO-LUMO gap of the testing set (20 data) reaches 0.17, 0.27 and 0.16 eV, respectively. On this basis, for each of the concerned electronic characteristics (HOMO, LUMO, HOMO-LUMO gap and oxidation potential), for dominant parameters were figured out. Specifically, charge number (NC) and average Au-Au coordiZnation number (CNAu-Au)  are consistently present in the four filtered features, indicating these parameters are critical to determining the electronic structure of Au NCs. These results demonstrate that a small set of key structural descriptors enables a cost-efficient strategy for accurate prediction of the electronic structure of Au NCs.
+Tingting Jiang, Qiqi Zhang, Zhan Si, Jingjing Hu, Ying Lv, Tingting Wang, Haizhu Yu*
+
+-------------
+
+## Workflow
+
+A machine learning model using interpretable automated feature engineering (Kolmogorov-Arnold Networks) identifies charge number and Au-Au coordination as key structural descriptors, enabling accurate prediction of gold nanoclusters' electronic properties (HOMO, LUMO, gap, oxidation potential) with low error, offering a cost-efficient strategy for catalytic design.
+
+![a34d044ee64218e5ee877520c9912196_720](https://github.com/user-attachments/assets/eee7ba84-50a1-4090-89ec-d31d2aabacb2)
+
+-----------------
+
+## Installation
+
+
+## Acknowledgements
+
+We would like to extend our sincere thanks to the authors of the **KAN network** for their pioneering work and for making their code publicly available. This project benefits significantly from their contributions.  🔗 [Kaggle](https://www.kaggle.com/code/seyidcemkarakas/kan-regression-graduate-admissions/notebook)
