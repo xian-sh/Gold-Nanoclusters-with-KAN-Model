@@ -14,6 +14,19 @@ A machine learning model using interpretable automated feature engineering (Kolm
 
 ## Installation
 
+```
+  # Core scientific stack & visualization
+  pip install numpy pandas statsmodels scikit-learn matplotlib seaborn
+
+  # PyTorch (CPU build shown; for GPU see https://pytorch.org/get-started/locally/)
+  pip install torch
+
+  # Symbolic math
+  pip install sympy
+
+  # KAN network (pykan)
+  pip install git+https://github.com/KindXiaoming/pykan.git
+```
 
 ## Acknowledgements
 
